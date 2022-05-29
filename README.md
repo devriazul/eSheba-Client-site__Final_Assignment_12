@@ -42,7 +42,7 @@ see more about my project: [github.com/devriazul](https://www.github.com/devriaz
 - AXIOS
 ETC...
 
-## Some Impotents Install Command
+## Some Importance Install Command
     -npm install firebase
     -npm install -D tailwindcss
     -npm i daisyui

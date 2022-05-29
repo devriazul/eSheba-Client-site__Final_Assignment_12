@@ -1,28 +1,30 @@
 {
   "files": {
     "main.css": "/static/css/main.59241ae3.css",
-    "main.js": "/static/js/main.03e17e0d.js",
+    "main.js": "/static/js/main.bf10674d.js",
     "static/js/787.73d9f2a6.chunk.js": "/static/js/787.73d9f2a6.chunk.js",
     "static/media/business-idea-concept-with-people_52683-28609.jpg": "/static/media/business-idea-concept-with-people_52683-28609.0f61321710d8edc918fe.jpg",
     "static/media/b3.png": "/static/media/b3.34cf8706ff1d4e9d7633.png",
     "static/media/404.jpg": "/static/media/404.e76a9697759928d2f4b1.jpg",
-    "static/media/Convention Center by swdrana.jpg": "/static/media/Convention Center by swdrana.48b7a3e4d5cc04533422.jpg",
-    "static/media/book review by swdrana.jpg": "/static/media/book review by swdrana.3b90d0fb5169aa94473f.jpg",
-    "static/media/eTutor-by-swdrana.jpg": "/static/media/eTutor-by-swdrana.760a8b7dd5e4e9e31bad.jpg",
-    "static/media/Phone Lookup_by_swdrana.jpg": "/static/media/Phone Lookup_by_swdrana.0de10b5a170b0eaa9f02.jpg",
-    "static/media/TechHub-by-swdrana.jpg": "/static/media/TechHub-by-swdrana.f2e944677e47ed4dfea6.jpg",
-    "static/media/My Personal Wallet by swdrana.jpg": "/static/media/My Personal Wallet by swdrana.efda48269521df0bdabe.jpg",
+    "static/media/project08.png": "/static/media/project08.3ca35e91752054a67e19.png",
+    "static/media/project01.png": "/static/media/project01.fc30bf5b8e4b729c247c.png",
+    "static/media/project05.png": "/static/media/project05.23d9eaf7aa2b3f79d072.png",
+    "static/media/project02.png": "/static/media/project02.e2462a3701e6476a5a1d.png",
     "static/media/human-use-computer-control-robot-arms-working-procuction-convoyed-smart-factory-industry-4_1150-43048.jpg": "/static/media/human-use-computer-control-robot-arms-working-procuction-convoyed-smart-factory-industry-4_1150-43048.8215a473d15378957779.jpg",
+    "static/media/project03.png": "/static/media/project03.050d6b3c552229a19bfa.png",
+    "static/media/project07.png": "/static/media/project07.d300f34075644483ccf4.png",
+    "static/media/project06.png": "/static/media/project06.bd89029f12a279330bd7.png",
+    "static/media/project04.png": "/static/media/project04.cad870d3c23b71b17676.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.59241ae3.css.map": "/static/css/main.59241ae3.css.map",
-    "main.03e17e0d.js.map": "/static/js/main.03e17e0d.js.map",
+    "main.bf10674d.js.map": "/static/js/main.bf10674d.js.map",
     "787.73d9f2a6.chunk.js.map": "/static/js/787.73d9f2a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.59241ae3.css",
-    "static/js/main.03e17e0d.js"
+    "static/js/main.bf10674d.js"
   ]
 }

@@ -38,7 +38,7 @@ const Nav = () => {
           : ""}
 
         <Link to="/" className="btn btn-ghost normal-case text-3xl p-0">
-          eTools
+          e-Sheba
         </Link>
       </div>
 

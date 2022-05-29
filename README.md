@@ -1,5 +1,5 @@
 # eSheba
-by [swdrana](https://www.facebook.com/devriazul)
+by [DevRiazul](https://www.facebook.com/devriazul)
 
 see more about my project: [github.com/swdrana](https://www.github.com/devriazul)
 ## Live Site Link: [https://e-sheba-69364.web.app/](https://e-sheba-69364.web.app/)

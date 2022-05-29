@@ -35,13 +35,16 @@ const Payment = () => {
         .then((data) => console.log(data));
 
       // update paid status in cart
-      fetch(`https://e-sheba-server.herokuapp.com/updateCartStatus/${order._id}`, {
-        method: "PUT",
-        headers: {
-          "content-type": "application/json",
-        },
-        body: JSON.stringify(paidStatus),
-      })
+      fetch(
+        `https://e-sheba-server.herokuapp.com/updateCartStatus/${order._id}`,
+        {
+          method: "PUT",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify(paidStatus),
+        }
+      )
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
@@ -53,22 +56,28 @@ const Payment = () => {
               console.log("gotedUpdatedCartData: ", gotedUpdatedCartData);
 
               // update: transfer paid order from cartsCollection to ordersCollections
-              fetch(`https://e-sheba-server.herokuapp.com/update-order/${order._id}`, {
-                method: "PUT",
-                headers: {
-                  "content-type": "application/json",
-                },
-                body: JSON.stringify(gotedUpdatedCartData),
-              })
+              fetch(
+                `https://e-sheba-server.herokuapp.com/update-order/${order._id}`,
+                {
+                  method: "PUT",
+                  headers: {
+                    "content-type": "application/json",
+                  },
+                  body: JSON.stringify(gotedUpdatedCartData),
+                }
+              )
                 .then((res) => res.json())
                 .then((data) => {
                   console.log(data);
                   // e.target.reset();
 
                   // delete from cart because already added to ordersCollection
-                  fetch(`https://e-sheba-server.herokuapp.com/deleteFromCart/${order._id}`, {
-                    method: "DELETE",
-                  })
+                  fetch(
+                    `https://e-sheba-server.herokuapp.com/deleteFromCart/${order._id}`,
+                    {
+                      method: "DELETE",
+                    }
+                  )
                     .then((res) => res.json())
                     .then((data) => {
                       if (data.deletedCount > 0) {
@@ -95,6 +104,7 @@ const Payment = () => {
       >
         <input
           type="number"
+          className="input input-info"
           name="inputMoney"
           id=""
           placeholder="Type Payable Amount"

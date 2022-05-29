@@ -30,7 +30,7 @@ const Counter = () => {
                         OUR TEAM
                         </p>
                         <p className="md:text-3xl font-semibold text-gray-700 dark:text-gray-200">
-                          <CountUp end={120} duration={2} />
+                          <CountUp end={160} duration={2} />
                         </p>
                       </div>
                     </div>
@@ -54,7 +54,7 @@ const Counter = () => {
                           My Forum Posts
                         </p>
                         <p className="md:text-3xl font-semibold text-gray-700 dark:text-gray-200">
-                          <CountUp end={2112} duration={4} />
+                          <CountUp end={2612} duration={4} />
                         </p>
                       </div>
                     </div>
@@ -78,7 +78,7 @@ const Counter = () => {
                           Our  Tools
                         </p>
                         <p className="md:text-3xl font-semibold text-gray-700 dark:text-gray-200">
-                          <CountUp end={576} duration={3} />
+                          <CountUp end={526} duration={3} />
                         </p>
                       </div>
                     </div>
@@ -96,7 +96,7 @@ const Counter = () => {
                       <div>
                         <p className="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">Our Customers</p>
                         <p className="md:text-3xl font-semibold text-gray-700 dark:text-gray-200">
-                          <CountUp end={1090} duration={4} />
+                          <CountUp end={1290} duration={4} />
                         </p>
                       </div>
                     </div>

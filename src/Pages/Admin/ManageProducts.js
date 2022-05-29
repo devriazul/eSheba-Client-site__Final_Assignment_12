@@ -21,9 +21,12 @@ const ManageProducts = () => {
                 htmlFor="conform-delete"
                 className="btn btn-error float-right "
                 onClick={() => {
-                  fetch(`https://e-sheba-server.herokuapp.com/deleteProduct/${deleteItem}`, {
-                    method: "DELETE",
-                  })
+                  fetch(
+                    `https://e-sheba-server.herokuapp.com/deleteProduct/${deleteItem}`,
+                    {
+                      method: "DELETE",
+                    }
+                  )
                     .then((res) => res.json())
                     .then((data) => {
                       if (data.deletedCount > 0) {

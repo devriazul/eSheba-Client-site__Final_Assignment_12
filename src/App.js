@@ -25,6 +25,8 @@ import Cart from "./Pages/Order/Cart";
 import Payment from "./Pages/Order/Payment";
 import RequireNonAdmin from "./Auth/RequireNonAdmin";
 import {ToastContainer} from 'react-toastify'
+import Blogs from "./Pages/Blogs";
+import ResetPassword from "./Auth/ResetPassword";
 // import 'react-icons/all'
 function App() {
   useEffect(()=>{
@@ -37,9 +39,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/services" element={<RequireAuth><Services/></RequireAuth>}/>
+        <Route path="/services" element={<Services/>}/>
+        <Route path="/blogs" element={<Blogs/>}/>
         <Route path="/purchase/:id" element={<RequireAuth><Purchase/></RequireAuth>}/>
         <Route path="/login" element={<Login/>}/>
+        <Route path="/resetPassword" element={<ResetPassword/>}/>
         <Route path="/signup" element={<SignUp/>}/>
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/cart" element={<Cart/>}/>

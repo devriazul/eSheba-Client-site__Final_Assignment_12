@@ -1,11 +1,12 @@
 import React from "react";
+import Loading from "../components/Loading";
 import Product from "../components/Product";
 import useProducts from "../hooks/useProducts";
 
 const Services = () => {
   const [products, setProducts] = useProducts();
   if(products.length === 0){
-    return <h1 className="text-center text-4xl text-red-500">Loading...</h1>
+    return <Loading/>
   }
   return (
     <div>

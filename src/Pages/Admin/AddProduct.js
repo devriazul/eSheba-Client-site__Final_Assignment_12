@@ -1,5 +1,5 @@
 import React from "react";
-
+import {toast} from 'react-toastify'
 const AddProduct = () => {
   const handelSubmit = (e) => {
     e.preventDefault();
@@ -32,7 +32,8 @@ const AddProduct = () => {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        //   toast.success("Item Added!", { theme: "colored" });
+          toast.success("Item Added!", { theme: "colored" });
+          e.target.reset();
       });
   };
   return (

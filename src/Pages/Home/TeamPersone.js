@@ -6,29 +6,31 @@ import {
   FaTwitterSquare,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-const TeamPersone = () => {
+const TeamPersone = ({ singleTeamPersonInfo }) => {
+  const { id, name, deg, photo, facebook, twitter, linkedin, instagram } =
+    singleTeamPersonInfo;
   return (
     <div>
       <div className="card w-72 glass">
         <figure>
-          <img src="https://api.lorem.space/image/car?w=400&h=225" alt="car!" />
+          <img src={photo} alt={name} />
         </figure>
         <div className="card-body text-center py-10">
-          <h2 className="font-bold text-xl">Jason Smith</h2>
-          <p className="py-5">Founder / Ceo</p>
+          <h2 className="font-bold text-xl">{name}</h2>
+          <p className="py-5">{deg}</p>
           <div className="card-actions justify-evenly w-3/4 mx-auto">
-            <Link to="#">
+            <a href={facebook} target="_blank">
               <FaFacebookSquare />
-            </Link>
-            <Link to="#">
+            </a>
+            <a href={twitter} target="_blank">
               <FaTwitterSquare />
-            </Link>
-            <Link to="#">
+            </a>
+            <a href={linkedin} target="_blank">
               <FaLinkedin />
-            </Link>
-            <Link to="#">
+            </a>
+            <a href={instagram} target="_blank">
               <FaInstagram />
-            </Link>
+            </a>
           </div>
         </div>
       </div>

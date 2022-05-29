@@ -38,7 +38,7 @@ const Nav = () => {
           : ""}
 
         <Link to="/" className="btn btn-ghost normal-case text-3xl p-0">
-          e-Sheba
+          eTools
         </Link>
       </div>
 
@@ -50,7 +50,10 @@ const Nav = () => {
               <Link to="services">Services</Link>
             </li>
             <li>
-              <Link to="about">About</Link>
+              <Link to="blogs">Blogs</Link>
+            </li>
+            <li>
+              <Link to="about">My Portfolio</Link>
             </li>
             {user && (
               <li>
@@ -164,7 +167,10 @@ const Nav = () => {
                 <Link to="services">Services</Link>
               </li>
               <li>
-                <Link to="about">About</Link>
+                <Link to="blogs">Blogs</Link>
+              </li>
+              <li>
+                <Link to="about">My Portfolio</Link>
               </li>
               {user && (
                 <li>
@@ -180,10 +186,7 @@ const Nav = () => {
               )}
               {!user && (
                 <li>
-                  <Link
-                    to="signup"
-                    className="btn btn-error text-black-100 ml-4"
-                  >
+                  <Link to="signup" className="btn btn-error text-black-100 ml-4">
                     Create Account
                   </Link>
                 </li>

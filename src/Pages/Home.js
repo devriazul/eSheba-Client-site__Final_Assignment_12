@@ -9,6 +9,7 @@ import Teams from "./Home/Teams";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../firebase.init";
 import Loading from "../components/Loading";
+import Services from '../Pages/Home/service/Services'
 const Home = () => {
   const [user, loading] = useAuthState(auth);
 
@@ -17,6 +18,7 @@ const Home = () => {
       <BannerSec />
       <FeatureTools />
       <Counter />
+      <Services/>
       <Top10 />
       <Teams/>
       <ReviewSec />

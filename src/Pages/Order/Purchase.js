@@ -102,7 +102,7 @@ const Purchase = () => {
           <div className="card-actions justify-center">
             <input
               type="submit"
-              value="Add To Card"
+              value="Add To Cart"
               className="btn btn-secondary"
             />
             <Link to="/cart" className="btn btn-primary">

@@ -10,56 +10,56 @@ const Top10 = () => {
       <div className="carousel rounded-box product-carousel">
         <div className="carousel-item">
           <img
-            src="https://i.ibb.co/jrR1KhS/image.png"
+            src="https://www.ryanscomputers.com/cdn/products/small/microsoft-surface-laptop-3-10th-gen-intel-core-i5-11577344992.webp"
             className="h-80"
             alt="Burger"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://i.ibb.co/z8TK53Y/image.png"
+            src="https://www.ryanscomputers.com/cdn/products/small/razer-iskur-black-green-gaming-chair-11639308822.webp"
             className="h-80"
             alt="Burger"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://i.ibb.co/kGc0jxk/image.png"
+            src="https://www.ryanscomputers.com/cdn/products/small/intel-nuc-kit-intel-celeron-dual-core-j4005-4gb-11647256257.webp"
             className="h-80"
             alt="Burger"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://i.ibb.co/fGMnHSW/image.png"
+            src="https://www.ryanscomputers.com/cdn/products/small/hp-laserjet-pro-mfp-m227fdw-11548746660.webp"
             className="h-80"
             alt="Burger"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://i.ibb.co/gMfYg05/image.png"
+            src="https://www.ryanscomputers.com/cdn/products/small/gigabyte-g34wqc-34-inch-wqhd-3440-x-1440-144hz-11622895433.webp"
             className="h-80"
             alt="Burger"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://i.ibb.co/47hzcCx/image.png"
+            src="https://www.ryanscomputers.com/cdn/products/small/thermaltake-versa-j24-tg-rgb-tempered-glass-side-11552197564.webp"
             className="h-80"
             alt="Burger"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://i.ibb.co/V9q5zbH/image.png"
+            src="https://www.ryanscomputers.com/cdn/products/small/transcend-drivepro-20-1080p-dash-camera-with-32gb-11648377170.webp"
             className="h-80"
             alt="Burger"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://i.ibb.co/y87729w/image.png"
+            src="https://www.ryanscomputers.com/cdn/products/small/amazon-kindle-fire-hd-8-kids-pro-10th-gen-quad-11633778024.webp"
             className="h-80"
             alt="Burger"
           />

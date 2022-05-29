@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca2c7156.css",
-    "main.js": "/static/js/main.05bcd178.js",
+    "main.css": "/static/css/main.ac57b595.css",
+    "main.js": "/static/js/main.5eb464d4.js",
     "static/js/787.73d9f2a6.chunk.js": "/static/js/787.73d9f2a6.chunk.js",
-    "static/media/404.jpg": "/static/media/404.33e04ba95526e6d7052c.jpg",
-    "static/media/b3.png": "/static/media/b3.adc03b3f95576f6f8411.png",
-    "static/media/human-use-computer-control-robot-arms-working-procuction-convoyed-smart-factory-industry-4_1150-43048.jpg": "/static/media/human-use-computer-control-robot-arms-working-procuction-convoyed-smart-factory-industry-4_1150-43048.58a055343806cbed10f7.jpg",
-    "static/media/business-idea-concept-with-people_52683-28609.jpg": "/static/media/business-idea-concept-with-people_52683-28609.c3e321eec613aae8da41.jpg",
+    "static/media/business-idea-concept-with-people_52683-28609.jpg": "/static/media/business-idea-concept-with-people_52683-28609.0f61321710d8edc918fe.jpg",
+    "static/media/b3.png": "/static/media/b3.34cf8706ff1d4e9d7633.png",
+    "static/media/404.jpg": "/static/media/404.e76a9697759928d2f4b1.jpg",
+    "static/media/human-use-computer-control-robot-arms-working-procuction-convoyed-smart-factory-industry-4_1150-43048.jpg": "/static/media/human-use-computer-control-robot-arms-working-procuction-convoyed-smart-factory-industry-4_1150-43048.8215a473d15378957779.jpg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.ca2c7156.css.map": "/static/css/main.ca2c7156.css.map",
-    "main.05bcd178.js.map": "/static/js/main.05bcd178.js.map",
+    "main.ac57b595.css.map": "/static/css/main.ac57b595.css.map",
+    "main.5eb464d4.js.map": "/static/js/main.5eb464d4.js.map",
     "787.73d9f2a6.chunk.js.map": "/static/js/787.73d9f2a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca2c7156.css",
-    "static/js/main.05bcd178.js"
+    "static/css/main.ac57b595.css",
+    "static/js/main.5eb464d4.js"
   ]
 }

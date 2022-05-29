@@ -16,15 +16,15 @@ const BannerSec = () => {
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            NEED NEW TOOLS?
+            NEED NEW ACESSORIES?
           </h1>
           <p className="mb-5">
-            Electronics manufacturing software is a set of tools used by
+            Electronics manufacturing is a set of tools used by
             manufacturers to plan, execute, and report on the production of
             electronic goods. Common features include supply chain management,
             material supplier planning, recall management, and make/buy
             reporting, among others. By streamlining and automating routine
-            processes, electronics manufacturing software helps manufacturers
+            processes, electronics manufacturing helps manufacturers
             increase production while using fewer resources.
           </p>
           <button className="btn btn-primary">Explore Now!</button>

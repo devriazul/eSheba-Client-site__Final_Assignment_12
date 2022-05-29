@@ -5,9 +5,9 @@ const Footer = () => {
     <div>
       <footer className="footer p-10 bg-base-200 text-base-content">
         <div>
-          <h1 className="text-xl">E-Tools</h1>
+          <h1 className="text-xl">eSheba</h1>
           <p>
-            E-tools Industries Ltd.
+          eSheba Industries Ltd.
             <br />
             Providing reliable electronic products since 2020
           </p>
@@ -35,7 +35,7 @@ const Footer = () => {
       </footer>
       <footer className="footer items-center p-4 bg-neutral text-neutral-content">
         <div className="items-center grid-flow-col">
-          <h1 className="text-xl">E-Tools</h1>
+          <h1 className="text-xl">eSheba</h1>
           <p>Copyright © 2022 - All right reserved</p>
         </div>
         <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">

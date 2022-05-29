@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.59241ae3.css",
-    "main.js": "/static/js/main.d7f6dd6b.js",
+    "main.js": "/static/js/main.d131fb20.js",
     "static/js/787.73d9f2a6.chunk.js": "/static/js/787.73d9f2a6.chunk.js",
     "static/media/business-idea-concept-with-people_52683-28609.jpg": "/static/media/business-idea-concept-with-people_52683-28609.0f61321710d8edc918fe.jpg",
     "static/media/b3.png": "/static/media/b3.34cf8706ff1d4e9d7633.png",
@@ -20,11 +20,11 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.59241ae3.css.map": "/static/css/main.59241ae3.css.map",
-    "main.d7f6dd6b.js.map": "/static/js/main.d7f6dd6b.js.map",
+    "main.d131fb20.js.map": "/static/js/main.d131fb20.js.map",
     "787.73d9f2a6.chunk.js.map": "/static/js/787.73d9f2a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.59241ae3.css",
-    "static/js/main.d7f6dd6b.js"
+    "static/js/main.d131fb20.js"
   ]
 }

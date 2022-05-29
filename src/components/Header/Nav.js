@@ -132,9 +132,6 @@ const Nav = () => {
                 </Link>
               </li>
               <li>
-                <a>Settings</a>
-              </li>
-              <li>
                 <button onClick={logout}>Log Out</button>
               </li>
             </ul>

@@ -10,7 +10,7 @@ const ReviewSec = () => {
       <div className="flex flex-col lg:flex-row justify-center items-center py-20 bg-slate-400">
         <div className="w-full lg:w-2/5">
           <h1 className="text-5xl font-bold text-center mb-20 lg:mb-0">
-            Our Client’s Speak
+            Our Client’s Say
           </h1>
         </div>
         <div className="w-full md:w-3/5">

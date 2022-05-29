@@ -16,10 +16,10 @@ const BannerSec = () => {
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            Need Doctors Tools?
+            Need Test Tools?
           </h1>
           <p className="mb-5">
-          We sell the best quality office equipment like Printer, Photocopier, Scanner, Projector, Server, Security System, CC Camera, DVR, NVR, IP Camera, Network Router, Access Control, Money Counting Machine, Cash Register Machine, Land Phone Set, IP Phone Set from famous brands including HP, Canon, Dell, Toshiba, Brother, Epson, Sharp, Casio, BenQ, Xiaomi, Samsung, Panasonic, etc
+          Electronics testing tools manufacturing  is a set of tools used by manufacturers to plan, execute, and report on the production of electronic tools. Common features include supply chain management, material supplier planning, recall management, and make/buy reporting, among others. By streamlining and automating routine processes, electronics manufacturing tools company  helps manufacturers increase production while using fewer resources.
           </p>
           <button className="btn btn-primary">Explore Now!</button>
         </div>

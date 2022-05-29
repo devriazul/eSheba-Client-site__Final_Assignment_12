@@ -1,10 +1,12 @@
 import React from "react";
-import bookReview from "../img/mySites/book review by swdrana.jpg";
-import PersonalWallet from "../img/mySites/My Personal Wallet by swdrana.jpg";
-import ConventionCenter from "../img/mySites/Convention Center by swdrana.jpg";
-import PhoneLookUp from "../img/mySites/Phone Lookup_by_swdrana.jpg";
-import eTutor from "../img/mySites/eTutor-by-swdrana.jpg";
-import TechHub from "../img/mySites/TechHub-by-swdrana.jpg";
+import eZone from "../img/mySites/project01.png";
+import eDoctor from "../img/mySites/project02.png";
+import fashionHouse from "../img/mySites/project03.png";
+import hotGadget from "../img/mySites/project04.png";
+import eSchool from "../img/mySites/project05.png";
+import eCommerce from "../img/mySites/project06.png";
+import mobileFinder from "../img/mySites/project07.png";
+import gromingWedding from "../img/mySites/project08.png";
 import {
   FaFacebook,
   FaFacebookSquare,
@@ -127,12 +129,12 @@ const About = () => {
       <hr class=" border-[1px] w-10/12 mx-auto my-3 border-gray-800 hover:border-red-500" />
       <div className="hero w-full">
         <div className="hero-content grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <a href="https://tech-hub-2217d.web.app/" target="_blank">
+          <a href="https://devriazul-ecommerce.netlify.app/" target="_blank">
             <div class="stack">
               <div class="card shadow-md bg-[#E32227] duration-300  hover:bg-neutral text-primary-content p-5">
-                <img src={TechHub} className=" rounded-2xl" alt="" />
+                <img src={eCommerce} className=" rounded-2xl" alt="" />
                 <div class="card-body text-center">
-                  <h2 class="font-bold text-2xl text-center">Tech Hub</h2>
+                  <h2 class="font-bold text-2xl text-center">Panda eCommerce</h2>
                   <p>Click to Live Preview</p>
                 </div>
               </div>
@@ -145,12 +147,12 @@ const About = () => {
               </div>
             </div>
           </a>
-          <a href="https://e-tutor-c21cb.web.app/" target="_blank">
+          <a href="https://devriazul.github.io/E-School/" target="_blank">
             <div class="stack">
               <div class="card shadow-md bg-[#2BB02B]  duration-300  hover:bg-neutral text-primary-content p-5">
-                <img src={eTutor} className=" rounded-2xl" alt="" />
+                <img src={eSchool} className=" rounded-2xl" alt="" />
                 <div class="card-body text-center">
-                  <h2 class="font-bold text-2xl text-center">eTutor</h2>
+                  <h2 class="font-bold text-2xl text-center">eSchool</h2>
                   <p>Click to Live Preview</p>
                 </div>
               </div>
@@ -164,14 +166,14 @@ const About = () => {
             </div>
           </a>
           <a
-            href="https://phone-lookup-by-swdrana.netlify.app/"
+            href="https://devriazul.github.io/hot-gadgets/"
             target="_blank"
           >
             <div class="stack">
               <div class="card shadow-md bg-[#3F33BD] hover:bg-neutral duration-300 text-primary-content p-5">
-                <img src={PhoneLookUp} className=" rounded-2xl" alt="" />
+                <img src={hotGadget} className=" rounded-2xl" alt="" />
                 <div class="card-body text-center">
-                  <h2 class="font-bold text-2xl text-center">Phone Look Up</h2>
+                  <h2 class="font-bold text-2xl text-center">Hot Gadget</h2>
                   <p>Click to Live Preview</p>
                 </div>
               </div>
@@ -185,15 +187,15 @@ const About = () => {
             </div>
           </a>
           <a
-            href="https://vigorous-davinci-48064c.netlify.app/"
+            href="https://penguin-shop-devriazul.netlify.app/"
             target="_blank"
           >
             <div class="stack">
               <div class="card shadow-md bg-[#FFA500] hover:bg-neutral duration-300 text-primary-content p-5">
-                <img src={ConventionCenter} className=" rounded-2xl" alt="" />
+                <img src={fashionHouse} className=" rounded-2xl" alt="" />
                 <div class="card-body text-center">
                   <h2 class="font-bold text-2xl text-center">
-                    Convention Center
+                    Penguin Fashion
                   </h2>
                   <p>Click to Live Preview</p>
                 </div>
@@ -208,15 +210,15 @@ const About = () => {
             </div>
           </a>
           <a
-            href="https://my-personal-wallet-by-swdrana.netlify.app/"
+            href="https://e-doctor-devriazul.netlify.app/"
             target="_blank"
           >
             <div class="stack">
               <div class="card shadow-md bg-[#FF00FF] hover:bg-neutral duration-300 text-primary-content p-5">
-                <img src={PersonalWallet} className=" rounded-2xl" alt="" />
+                <img src={eDoctor} className=" rounded-2xl" alt="" />
                 <div class="card-body text-center">
                   <h2 class="font-bold text-2xl text-center">
-                    Personal Wallet
+                    eDoctor
                   </h2>
                   <p>Click to Live Preview</p>
                 </div>
@@ -230,13 +232,13 @@ const About = () => {
               </div>
             </div>
           </a>
-          <a href="https://book-review-swdrana.netlify.app/" target="_blank">
+          <a href="https://electronics-zone-277dc.web.app/" target="_blank">
             <div class="stack">
               <div class="card shadow-md bg-[#8F00FF] hover:bg-neutral duration-300 text-primary-content p-5">
-                <img src={bookReview} className=" rounded-2xl" alt="" />
+                <img src={eZone} className=" rounded-2xl" alt="" />
                 <div class="card-body text-center">
-                  <h2 class="font-bold text-2xl text-center">Book Reviews</h2>
-                  <p>Click to Live Preview</p>
+                  <h2 class="font-bold text-2xl text-center">eZone Service</h2>
+                  <p>eZone</p>
                 </div>
               </div>
 
@@ -244,6 +246,50 @@ const About = () => {
                 <div class="card-body"></div>
               </div>
               <div class="card shadow-sm bg-[#B75CFF] text-primary-content">
+                <div class="card-body"></div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://convention-center-devriazul.netlify.app/"
+            target="_blank"
+          >
+            <div class="stack">
+              <div class="card shadow-md bg-[#3F33BD] hover:bg-neutral duration-300 text-primary-content p-5">
+                <img src={gromingWedding} className=" rounded-2xl" alt="" />
+                <div class="card-body text-center">
+                  <h2 class="font-bold text-2xl text-center">Convension Center</h2>
+                  <p>Click to Live Preview</p>
+                </div>
+              </div>
+
+              <div class="card shadow bg-[#5A4FCF] text-primary-content">
+                <div class="card-body"></div>
+              </div>
+              <div class="card shadow-sm bg-[#7C73D9] text-primary-content">
+                <div class="card-body"></div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://mobile-finder-devriazul.netlify.app/"
+            target="_blank"
+          >
+            <div class="stack">
+              <div class="card shadow-md bg-[#FF00FF] hover:bg-neutral duration-300 text-primary-content p-5">
+                <img src={mobileFinder} className=" rounded-2xl" alt="" />
+                <div class="card-body text-center">
+                  <h2 class="font-bold text-2xl text-center">
+                    Phone Finder
+                  </h2>
+                  <p>Click to Live Preview</p>
+                </div>
+              </div>
+
+              <div class="card shadow bg-[#FF2EFF] text-primary-content">
+                <div class="card-body"></div>
+              </div>
+              <div class="card shadow-sm bg-[#FF5CFF] text-primary-content">
                 <div class="card-body"></div>
               </div>
             </div>

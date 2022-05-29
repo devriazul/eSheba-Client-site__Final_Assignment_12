@@ -7,7 +7,7 @@ see more about my project: [github.com/devriazul](https://www.github.com/devriaz
 ### Site Overview
 
 ### Features
-- Computer Manufacturer and Management
+- Doctor Tools Manufacturer and Management
 - Admin & User (Different Interface)
 - Database
 - Login System

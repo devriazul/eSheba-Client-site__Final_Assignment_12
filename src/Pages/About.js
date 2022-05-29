@@ -24,56 +24,56 @@ const About = () => {
           <div className="text-center lg:text-left">
             <h4 className="text-md">Hey! I'm</h4>
             <h4 className="text-4xl">
-              <span className="font-bold text-red-600">Masuduzzaman</span>{" "}
+              <span className="font-bold text-red-600">Riazul Islam</span>{" "}
             </h4>
             <p className=" text-blue-500 font-bold text-xl tracking-widest ">
-              MERN Stack Developer
+              Full Stack Web Developer
             </p>
             <hr class=" border-[1px] border-yellow-400" />
             <p className="pt-2 text-justify">
-              I am a computer science student at{" "}
-              <a href="http://www.njupt.edu.cn/" target="_blank">
+              I am a computer science graduate from{" "}
+              <a href="" target="_blank">
                 <strong className="hover:underline hover:text-blue-600">
-                  Nanjing University Posts & Telecommunication
+                  Jahangirnagar University
                 </strong>
               </a>{" "}
-              in <strong>Nanjing, Jiangsu, China.</strong> My mission this year
-              is to be a web developer. I am constantly working hard for this
+              in <strong>Dhaka, Bangladesh</strong> My mission this year
+              is to be a Full Stack Web Developer. I am constantly working hard for this
               and hopefully I will be able to reach my destination. Below you
               can see samples of some of the projects I have done.
             </p>
             {/* Social  */}
             <div className="w-1/2 mx-auto flex justify-evenly my-1">
               <a
-                href="https://facebook.com/swdrana"
+                href="https://facebook.com/devriazul"
                 className="hover:text-blue-600 "
                 target="_blank"
               >
                 <FaFacebook size={40} />
               </a>
               <a
-                href="https://github.com/swdrana"
+                href="https://github.com/devriazul"
                 className="hover:text-gray-600 "
                 target="_blank"
               >
                 <FaGithub size={40} />
               </a>
               <a
-                href="https://www.linkedin.com/in/swdrana/"
+                href="https://www.linkedin.com/in/devriazul/"
                 className="hover:text-blue-500"
                 target="_blank"
               >
                 <FaLinkedinIn size={40} />
               </a>
               <a
-                href="https://www.youtube.com/swdrana"
+                href="https://www.youtube.com/devriazul"
                 className="hover:text-red-600"
                 target="_blank"
               >
                 <FaYoutube size={40} />
               </a>
               <a
-                href="https://twitter.com/swdrana"
+                href="https://twitter.com/devriazul"
                 className="hover:text-blue-500"
                 target="_blank"
               >
@@ -84,31 +84,31 @@ const About = () => {
             <div className="flex justify-center mb-2">
               <strong>Email: &nbsp;&nbsp;</strong>
               <a
-                href="mailto:codingbengal@gmail.com"
+                href="mailto:engr.riazul@gmail.com"
                 target="_blank"
                 className="hover:underline hover:text-orange-600"
                 title="Click me to send email"
               >
-                codingbengal@gmail.com
+                engr.riazul@gmail.com
               </a>
             </div>
             {/* Education  */}
             <div class=" flex justify-between ">
               <div>
-                <div class="font-bold">BSc in Computer Science Engineering</div>
+                <div class="font-bold">MSc in Computer Science</div>
                 <div class="text-sm opacity-50">
-                  Nanjing University Posts & Telecommunication
+                  Jahangirnagar University
                 </div>
-                <div class="text-sm opacity-50">Nanjing, Jiangxu, China.</div>
+                <div class="text-sm opacity-50">Dhaka, Bangladesh</div>
               </div>
               <div>
                 <div class="font-bold">
-                  Diploma in Telecommunication Engineer
+                BSc in Computer Science
                 </div>
                 <div class="text-sm opacity-50">
-                  Shariatpur Polytechnic Institute.
+                  Fareast International University.
                 </div>
-                <div class="text-sm opacity-50">Shariatpur, Bangladesh.</div>
+                <div class="text-sm opacity-50">Dhaka, Bangladesh.</div>
               </div>
             </div>
             <TechnologyAndTools />
@@ -116,7 +116,7 @@ const About = () => {
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <img
-              src="https://swdrana.github.io/personal-portfolio-m1-final/img/swdrana.png"
+              src="https://avatars.githubusercontent.com/u/24354468?v=4"
               alt=""
             />
           </div>

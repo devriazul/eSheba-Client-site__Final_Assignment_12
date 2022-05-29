@@ -16,7 +16,7 @@ const BannerSec = () => {
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            Need Computer Accessories?
+            Need Doctors Tools?
           </h1>
           <p className="mb-5">
           We sell the best quality office equipment like Printer, Photocopier, Scanner, Projector, Server, Security System, CC Camera, DVR, NVR, IP Camera, Network Router, Access Control, Money Counting Machine, Cash Register Machine, Land Phone Set, IP Phone Set from famous brands including HP, Canon, Dell, Toshiba, Brother, Epson, Sharp, Casio, BenQ, Xiaomi, Samsung, Panasonic, etc
